@@ -11,6 +11,7 @@ This script is designed for Debian-based Linux systems to automate system update
     -   Shows memory usage.
     -   Lists active network connections.
     -   Performs a network speed test if `speedtest-cli` is installed.
+	- Installation instructions for speedtest-cli `https://www.speedtest.net/apps/cli`
 -   **Logging**: All actions are logged to a file in `~/logs/update/`, with a new log file created for each day.
 
 ## Prerequisites
@@ -23,7 +24,7 @@ This script is designed for Debian-based Linux systems to automate system update
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Shawn-Falconbury/update.git
     cd <repository-directory>
     ```
 
